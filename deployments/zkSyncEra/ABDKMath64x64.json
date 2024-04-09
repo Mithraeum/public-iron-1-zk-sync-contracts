@@ -1,0 +1,139 @@
+{
+  "address": "0x74298454636f997F983Bd79a38f1D9c6052680Ef",
+  "abi": [],
+  "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+  "receipt": {
+    "to": "0x0000000000000000000000000000000000008006",
+    "from": "0xA2F2078006658594Fa058Ee8dBD08f3AA2Bb6C9c",
+    "contractAddress": "0x74298454636f997F983Bd79a38f1D9c6052680Ef",
+    "transactionIndex": 3,
+    "gasUsed": "2338629",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x917d3a86dd39bf831666309790c50d32c2ec79743d37ca6e890993fd79c933b9",
+    "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+    "logs": [
+      {
+        "transactionIndex": 3,
+        "blockNumber": 30744544,
+        "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+        "address": "0x000000000000000000000000000000000000800A",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000a2f2078006658594fa058ee8dbd08f3aa2bb6c9c",
+          "0x0000000000000000000000000000000000000000000000000000000000008001"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000a348d7977480",
+        "logIndex": 23,
+        "blockHash": "0x917d3a86dd39bf831666309790c50d32c2ec79743d37ca6e890993fd79c933b9"
+      },
+      {
+        "transactionIndex": 3,
+        "blockNumber": 30744544,
+        "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+        "address": "0x0000000000000000000000000000000000008008",
+        "topics": [
+          "0x27fe8c0b49f49507b9d4fe5968c9f49edfe5c9df277d433a07a0717ede97638d"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000d830000000000000000000000000000000000000000000000000000000000008008000000000000000000000000000000000000000000000000000000000000800ed6c8e99ebaad7c10b0ff9dbee60981547ae2fb727fdf6d29e4beafab20c3c989",
+        "logIndex": 24,
+        "blockHash": "0x917d3a86dd39bf831666309790c50d32c2ec79743d37ca6e890993fd79c933b9"
+      },
+      {
+        "transactionIndex": 3,
+        "blockNumber": 30744544,
+        "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+        "address": "0x0000000000000000000000000000000000008008",
+        "topics": [
+          "0x3a36e47291f4201faf137fab081d92295bce2d53be2c6ca68ba82c7faa9ce241",
+          "0x000000000000000000000000000000000000000000000000000000000000800e",
+          "0xd6c8e99ebaad7c10b0ff9dbee60981547ae2fb727fdf6d29e4beafab20c3c989"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000ea0016000000000000000000000010000104300000000f0001042e77ff4ac9341d2cfb71f7db7e5b955350fda2d5bfd647739a5c95f645e9eba402000000400000010000000002000000000000000e00000432000000000100001900000005010000410000012000000443000001000010044300000020010000390000000c0000c13d000000000101004b0000000001000416000000400010043f00000080010000390000000c0000613d0000000101200190001500140013001200110010000f000e000d000c000b0002000a00010009000200010000000000000008000000070000000600050004000300000000000000000000000000000000000000000000",
+        "logIndex": 25,
+        "blockHash": "0x917d3a86dd39bf831666309790c50d32c2ec79743d37ca6e890993fd79c933b9"
+      },
+      {
+        "transactionIndex": 3,
+        "blockNumber": 30744544,
+        "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+        "address": "0x0000000000000000000000000000000000008004",
+        "topics": [
+          "0xc94722ff13eacf53547c4741dab5228353a05938ffcdd5d4a2d533ae0e618287",
+          "0x01000007f1a0f3df69cd7ae7e7f395c7a29779b20af770f327fa882809720bb5",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x",
+        "logIndex": 26,
+        "blockHash": "0x917d3a86dd39bf831666309790c50d32c2ec79743d37ca6e890993fd79c933b9"
+      },
+      {
+        "transactionIndex": 3,
+        "blockNumber": 30744544,
+        "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+        "address": "0x0000000000000000000000000000000000008006",
+        "topics": [
+          "0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5",
+          "0x000000000000000000000000a2f2078006658594fa058ee8dbd08f3aa2bb6c9c",
+          "0x01000007f1a0f3df69cd7ae7e7f395c7a29779b20af770f327fa882809720bb5",
+          "0x00000000000000000000000074298454636f997f983bd79a38f1d9c6052680ef"
+        ],
+        "data": "0x",
+        "logIndex": 27,
+        "blockHash": "0x917d3a86dd39bf831666309790c50d32c2ec79743d37ca6e890993fd79c933b9"
+      },
+      {
+        "transactionIndex": 3,
+        "blockNumber": 30744544,
+        "transactionHash": "0xda2d9afec7d7d8e262140c3300cf118916137d0c9590af33ef46b5edafe4a971",
+        "address": "0x000000000000000000000000000000000000800A",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000008001",
+          "0x000000000000000000000000a2f2078006658594fa058ee8dbd08f3aa2bb6c9c"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000006e1c3ad24b40",
+        "logIndex": 28,
+        "blockHash": "0x917d3a86dd39bf831666309790c50d32c2ec79743d37ca6e890993fd79c933b9"
+      }
+    ],
+    "blockNumber": 30744544,
+    "cumulativeGasUsed": "0",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "3646d8962ad64e7d440614fa1cd7b066",
+  "metadata": {
+    "optimizer_settings": {
+      "is_debug_logging_enabled": false,
+      "is_fallback_to_size_enabled": false,
+      "is_system_request_memoization_disabled": false,
+      "is_verify_each_enabled": false,
+      "level_back_end": "Aggressive",
+      "level_middle_end": "Aggressive",
+      "level_middle_end_size": "Zero"
+    },
+    "solc_metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Smart contract library of mathematical functions operating with signed 64.64-bit fixed point numbers.  Signed 64.64-bit fixed point number is basically a simple fraction whose numerator is signed 128-bit integer and denominator is 2^64.  As long as denominator is always the same, there is no need to store it, thus in Solidity signed 64.64-bit fixed point numbers are represented by int128 type holding only the numerator.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/ABDKMath64x64.sol\":\"ABDKMath64x64\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"details\":{\"constantOptimizer\":false,\"cse\":false,\"deduplicate\":false,\"inliner\":false,\"jumpdestRemover\":false,\"orderLiterals\":false,\"peephole\":false,\"yul\":true,\"yulDetails\":{\"optimizerSteps\":\"dhfoDgvulfnTUtnIf[xa[r]EscLMcCTUtTOntnfDIulLculVcul [j]Tpeulxa[rul]xa[r]cLgvifCTUca[r]LSsTFOtfDnca[r]Iulc]jmul[jul] VcTOcul jmul\",\"stackAllocation\":true}},\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/libraries/ABDKMath64x64.sol\":{\"keccak256\":\"0xb0bd6c7776723f29bcd4c3d62bad44ed06279af5f52fe0810ce2219cd1097bf5\",\"urls\":[\"bzz-raw://2928f3511d093f985e5fd8d1e7489a9ae34c4d962ed4f4109ad06a50fd1fbf31\",\"dweb:/ipfs/QmRL7YWfCRZRQfcGhVCyEuEnuGwBM4dLDXpyBm9SrD7Jti\"]}},\"version\":1}",
+    "solc_version": "0.8.17",
+    "solc_zkvm_edition": null,
+    "zk_version": "1.4.0"
+  },
+  "bytecode": "0x00000001012001900000000c0000613d0000008001000039000000400010043f0000000001000416000000000101004b0000000c0000c13d00000020010000390000010000100443000001200000044300000005010000410000000f0001042e000000000100001900000010000104300000000e000004320000000f0001042e000000100001043000000000000000000000000000000000000000000000000000000002000000000000000000000000000000400000010000000000000000005c95f645e9eba402fda2d5bfd647739a71f7db7e5b95535077ff4ac9341d2cfb",
+  "deployedBytecode": "0x00000001012001900000000c0000613d0000008001000039000000400010043f0000000001000416000000000101004b0000000c0000c13d00000020010000390000010000100443000001200000044300000005010000410000000f0001042e000000000100001900000010000104300000000e000004320000000f0001042e000000100001043000000000000000000000000000000000000000000000000000000002000000000000000000000000000000400000010000000000000000005c95f645e9eba402fda2d5bfd647739a71f7db7e5b95535077ff4ac9341d2cfb",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "Smart contract library of mathematical functions operating with signed 64.64-bit fixed point numbers.  Signed 64.64-bit fixed point number is basically a simple fraction whose numerator is signed 128-bit integer and denominator is 2^64.  As long as denominator is always the same, there is no need to store it, thus in Solidity signed 64.64-bit fixed point numbers are represented by int128 type holding only the numerator.",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}

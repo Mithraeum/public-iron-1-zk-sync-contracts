@@ -1,0 +1,98 @@
+{
+  "address": "0xeD9A6683FE044DAF2d33CD5c490B7DeCB801f873",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint16",
+          "name": "variable",
+          "type": "uint16"
+        },
+        {
+          "internalType": "uint16",
+          "name": "value",
+          "type": "uint16"
+        }
+      ],
+      "name": "canAdd",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint16",
+          "name": "variable",
+          "type": "uint16"
+        },
+        {
+          "internalType": "uint16",
+          "name": "value",
+          "type": "uint16"
+        }
+      ],
+      "name": "canSubtract",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xa31e2aa63be062a69f70fc47a381d255d2122130e4e80ee7775f410f15e23222",
+  "receipt": {
+    "to": null,
+    "from": "0x351d58A80436aE94b783A47a1ED34eb12826DDA7",
+    "contractAddress": "0xeD9A6683FE044DAF2d33CD5c490B7DeCB801f873",
+    "transactionIndex": 5,
+    "gasUsed": "139582",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x77ed3ca8fc27e08793e88cfe8e2eff86ab6c740c7fc98dc2d58aca355178d545",
+    "transactionHash": "0xa31e2aa63be062a69f70fc47a381d255d2122130e4e80ee7775f410f15e23222",
+    "logs": [],
+    "blockNumber": 29161674,
+    "cumulativeGasUsed": "756932",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "fe31280621a8db2936c7c6268abddf29",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint16\",\"name\":\"variable\",\"type\":\"uint16\"},{\"internalType\":\"uint16\",\"name\":\"value\",\"type\":\"uint16\"}],\"name\":\"canAdd\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint16\",\"name\":\"variable\",\"type\":\"uint16\"},{\"internalType\":\"uint16\",\"name\":\"value\",\"type\":\"uint16\"}],\"name\":\"canSubtract\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"canAdd(uint16,uint16)\":{\"details\":\"Checks if adding two uint16 values will overflow or not\"},\"canSubtract(uint16,uint16)\":{\"details\":\"Checks if subtracting two uint16 values will underflow or not\"}},\"title\":\"Utils for math operations with uint16\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains helper functions for some math operations\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/UintUtils.sol\":\"UintUtils\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":300},\"remappings\":[]},\"sources\":{\"contracts/libraries/UintUtils.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.13;\\r\\n\\r\\n/// @title Utils for math operations with uint16\\r\\n/// @notice Contains helper functions for some math operations\\r\\nlibrary UintUtils {\\r\\n    /// @dev Checks if adding two uint16 values will overflow or not\\r\\n    function canAdd(uint16 variable, uint16 value) public pure returns (bool) {\\r\\n        return (variable + value >= variable);\\r\\n    }\\r\\n\\r\\n    /// @dev Checks if subtracting two uint16 values will underflow or not\\r\\n    function canSubtract(uint16 variable, uint16 value) public pure returns (bool) {\\r\\n        return (value <= variable - value);\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0xfaac6fc30f972b060973bbcb1e8a7517af2afa3f9f308f46b204755b21b56610\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x61018f61003a600b82828239805160001a60731461002d57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600436106100405760003560e01c8063a4a7317614610045578063f826b2241461006c575b600080fd5b6100586100533660046100d3565b61007f565b604051901515815260200160405180910390f35b61005861007a3660046100d3565b61009d565b600061ffff8316610090838561011c565b61ffff1610159392505050565b60006100a9828461013e565b61ffff168261ffff161115905092915050565b803561ffff811681146100ce57600080fd5b919050565b600080604083850312156100e657600080fd5b6100ef836100bc565b91506100fd602084016100bc565b90509250929050565b634e487b7160e01b600052601160045260246000fd5b61ffff81811683821601908082111561013757610137610106565b5092915050565b61ffff8281168282160390808211156101375761013761010656fea2646970667358221220db335c184c699d8815491b90a66b2167b96f7ddfa4ff1faa5d2bcbbf7e32843064736f6c63430008100033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600436106100405760003560e01c8063a4a7317614610045578063f826b2241461006c575b600080fd5b6100586100533660046100d3565b61007f565b604051901515815260200160405180910390f35b61005861007a3660046100d3565b61009d565b600061ffff8316610090838561011c565b61ffff1610159392505050565b60006100a9828461013e565b61ffff168261ffff161115905092915050565b803561ffff811681146100ce57600080fd5b919050565b600080604083850312156100e657600080fd5b6100ef836100bc565b91506100fd602084016100bc565b90509250929050565b634e487b7160e01b600052601160045260246000fd5b61ffff81811683821601908082111561013757610137610106565b5092915050565b61ffff8281168282160390808211156101375761013761010656fea2646970667358221220db335c184c699d8815491b90a66b2167b96f7ddfa4ff1faa5d2bcbbf7e32843064736f6c63430008100033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "canAdd(uint16,uint16)": {
+        "details": "Checks if adding two uint16 values will overflow or not"
+      },
+      "canSubtract(uint16,uint16)": {
+        "details": "Checks if subtracting two uint16 values will underflow or not"
+      }
+    },
+    "title": "Utils for math operations with uint16",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "Contains helper functions for some math operations",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}

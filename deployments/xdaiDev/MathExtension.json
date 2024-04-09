@@ -1,0 +1,147 @@
+{
+  "address": "0xa8Fc5c63e20A7a1e84523e88a3603Cf468204582",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "precision",
+          "type": "uint256"
+        }
+      ],
+      "name": "isIntegerWithPrecision",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "precision",
+          "type": "uint256"
+        }
+      ],
+      "name": "roundDownWithPrecision",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "precision",
+          "type": "uint256"
+        }
+      ],
+      "name": "roundUpWithPrecision",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "y",
+          "type": "uint256"
+        }
+      ],
+      "name": "sqrt",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "z",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x3d14cbdd9c96741d4a56434688152a730097839eda4162fbc1e47b6e18a46b8c",
+  "receipt": {
+    "to": null,
+    "from": "0xA2F2078006658594Fa058Ee8dBD08f3AA2Bb6C9c",
+    "contractAddress": "0xa8Fc5c63e20A7a1e84523e88a3603Cf468204582",
+    "transactionIndex": 10,
+    "gasUsed": "195010",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x85d387ffd26d7a74952ebc6a44030bdd6749cc95070331d69eb03b11b6cfd2d3",
+    "transactionHash": "0x3d14cbdd9c96741d4a56434688152a730097839eda4162fbc1e47b6e18a46b8c",
+    "logs": [],
+    "blockNumber": 29112521,
+    "cumulativeGasUsed": "1149572",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "fe31280621a8db2936c7c6268abddf29",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"precision\",\"type\":\"uint256\"}],\"name\":\"isIntegerWithPrecision\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"precision\",\"type\":\"uint256\"}],\"name\":\"roundDownWithPrecision\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"precision\",\"type\":\"uint256\"}],\"name\":\"roundUpWithPrecision\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"y\",\"type\":\"uint256\"}],\"name\":\"sqrt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"z\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"isIntegerWithPrecision(uint256,uint256)\":{\"details\":\"Check if uint256 value with provided precision integer value or not\"},\"roundDownWithPrecision(uint256,uint256)\":{\"details\":\"Rounds uint256 value with provided precision to its integer value rounding down\"},\"roundUpWithPrecision(uint256,uint256)\":{\"details\":\"Rounds uint256 value with provided precision to its integer value rounding up\"},\"sqrt(uint256)\":{\"details\":\"Calculates square root of uint256 using Babylonian Method\"}},\"title\":\"Extension of math library\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains helper functions for some math operations\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/MathExtension.sol\":\"MathExtension\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":300},\"remappings\":[]},\"sources\":{\"contracts/libraries/MathExtension.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.13;\\r\\n\\r\\n/// @title Extension of math library\\r\\n/// @notice Contains helper functions for some math operations\\r\\nlibrary MathExtension {\\r\\n    /// @dev Calculates square root of uint256 using Babylonian Method\\r\\n    function sqrt(uint256 y) external pure returns (uint256 z) {\\r\\n        if (y > 3) {\\r\\n            z = y;\\r\\n            uint256 x = y / 2 + 1;\\r\\n            while (x < z) {\\r\\n                z = x;\\r\\n                x = (y / x + x) / 2;\\r\\n            }\\r\\n        } else if (y != 0) {\\r\\n            z = 1;\\r\\n        }\\r\\n    }\\r\\n\\r\\n    /// @dev Rounds uint256 value with provided precision to its integer value rounding down\\r\\n    function roundDownWithPrecision(uint256 value, uint256 precision) public pure returns (uint256) {\\r\\n        return (value / precision) * precision;\\r\\n    }\\r\\n\\r\\n    /// @dev Rounds uint256 value with provided precision to its integer value rounding up\\r\\n    function roundUpWithPrecision(uint256 value, uint256 precision) external pure returns (uint256) {\\r\\n        uint256 roundedValue = roundDownWithPrecision(value, precision);\\r\\n        if (value % precision != 0) {\\r\\n            roundedValue += precision;\\r\\n        }\\r\\n\\r\\n        return roundedValue;\\r\\n    }\\r\\n\\r\\n    /// @dev Check if uint256 value with provided precision integer value or not\\r\\n    function isIntegerWithPrecision(uint256 value, uint256 precision) external pure returns (bool) {\\r\\n        return value % precision == 0;\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0x278de37740f6b6a7c199d17a6cc0e9c94601979e4cfd202ae61240a378b1d162\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x61029061003a600b82828239805160001a60731461002d57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600436106100565760003560e01c80632831163a1461005b578063677342ce146100835780638cfb3504146100a4578063eefe4284146100b7575b600080fd5b61006e610069366004610199565b6100ca565b60405190151581526020015b60405180910390f35b6100966100913660046101bb565b6100e0565b60405190815260200161007a565b6100966100b2366004610199565b610150565b6100966100c5366004610199565b610182565b60006100d682846101ea565b1590505b92915050565b6000600382111561014157508060006100fa600283610214565b610105906001610228565b90505b8181101561013b579050806002816101208186610214565b61012a9190610228565b6101349190610214565b9050610108565b50919050565b811561014b575060015b919050565b60008061015d8484610182565b905061016983856101ea565b1561017b576101788382610228565b90505b9392505050565b60008161018f8185610214565b61017b919061023b565b600080604083850312156101ac57600080fd5b50508035926020909101359150565b6000602082840312156101cd57600080fd5b5035919050565b634e487b7160e01b600052601260045260246000fd5b6000826101f9576101f96101d4565b500690565b634e487b7160e01b600052601160045260246000fd5b600082610223576102236101d4565b500490565b808201808211156100da576100da6101fe565b6000816000190483118215151615610255576102556101fe565b50029056fea2646970667358221220eebfa194c7780f2b40e24645457fbf50491f9c77f1bf57aecf896ed0d840a4bf64736f6c63430008100033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600436106100565760003560e01c80632831163a1461005b578063677342ce146100835780638cfb3504146100a4578063eefe4284146100b7575b600080fd5b61006e610069366004610199565b6100ca565b60405190151581526020015b60405180910390f35b6100966100913660046101bb565b6100e0565b60405190815260200161007a565b6100966100b2366004610199565b610150565b6100966100c5366004610199565b610182565b60006100d682846101ea565b1590505b92915050565b6000600382111561014157508060006100fa600283610214565b610105906001610228565b90505b8181101561013b579050806002816101208186610214565b61012a9190610228565b6101349190610214565b9050610108565b50919050565b811561014b575060015b919050565b60008061015d8484610182565b905061016983856101ea565b1561017b576101788382610228565b90505b9392505050565b60008161018f8185610214565b61017b919061023b565b600080604083850312156101ac57600080fd5b50508035926020909101359150565b6000602082840312156101cd57600080fd5b5035919050565b634e487b7160e01b600052601260045260246000fd5b6000826101f9576101f96101d4565b500690565b634e487b7160e01b600052601160045260246000fd5b600082610223576102236101d4565b500490565b808201808211156100da576100da6101fe565b6000816000190483118215151615610255576102556101fe565b50029056fea2646970667358221220eebfa194c7780f2b40e24645457fbf50491f9c77f1bf57aecf896ed0d840a4bf64736f6c63430008100033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "isIntegerWithPrecision(uint256,uint256)": {
+        "details": "Check if uint256 value with provided precision integer value or not"
+      },
+      "roundDownWithPrecision(uint256,uint256)": {
+        "details": "Rounds uint256 value with provided precision to its integer value rounding down"
+      },
+      "roundUpWithPrecision(uint256,uint256)": {
+        "details": "Rounds uint256 value with provided precision to its integer value rounding up"
+      },
+      "sqrt(uint256)": {
+        "details": "Calculates square root of uint256 using Babylonian Method"
+      }
+    },
+    "title": "Extension of math library",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "Contains helper functions for some math operations",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "address": "0x9f72e04c83a6ffA04166988f9003052443D18B2E",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newImpl",
+          "type": "address"
+        }
+      ],
+      "name": "setImplementation",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x998ade5be2b0b48e9abf3095b5d3e717013f32a642d85a3cefae462b57fd6473",
+  "receipt": {
+    "to": "0x0000000000000000000000000000000000000000",
+    "from": "0xA2F2078006658594Fa058Ee8dBD08f3AA2Bb6C9c",
+    "contractAddress": "0x9f72e04c83a6ffA04166988f9003052443D18B2E",
+    "transactionIndex": 0,
+    "gasUsed": "288309",
+    "logsBloom": "0x00000000000000000000000000200000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000020000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000200000000000000010000000000010000000000000000000000000000000000010000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xcf45e944dc37ee1efa7751dbae0a4409621d485880341511b0ef2d24d7e5f4a7",
+    "transactionHash": "0x998ade5be2b0b48e9abf3095b5d3e717013f32a642d85a3cefae462b57fd6473",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 2667071,
+        "transactionHash": "0x998ade5be2b0b48e9abf3095b5d3e717013f32a642d85a3cefae462b57fd6473",
+        "address": "0x9f72e04c83a6ffA04166988f9003052443D18B2E",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a2f2078006658594fa058ee8dbd08f3aa2bb6c9c"
+        ],
+        "data": "0x",
+        "logIndex": 0,
+        "blockHash": "0xcf45e944dc37ee1efa7751dbae0a4409621d485880341511b0ef2d24d7e5f4a7"
+      }
+    ],
+    "blockNumber": 2667071,
+    "cumulativeGasUsed": "288309",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "d40fd766cc3fa0d4c836779e74bc4f2f",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newImpl\",\"type\":\"address\"}],\"name\":\"setImplementation\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"events\":{\"OwnershipTransferred(address,address)\":{\"params\":{\"newOwner\":\"New proxy owner\",\"previousOwner\":\"Previous proxy owner\"}}},\"kind\":\"dev\",\"methods\":{\"renounceOwnership()\":{\"details\":\"Even though this function is opened, it can only be called by contract owner\"},\"setImplementation(address)\":{\"details\":\"Even though this function is opened, it can only be called by contract owner\",\"params\":{\"_newImpl\":\"New implementation address\"}},\"transferOwnership(address)\":{\"details\":\"Even though this function is opened, it can only be called by contract owner\",\"params\":{\"newOwner\":\"New owner address\"}}},\"title\":\"Simple proxy contract\",\"version\":1},\"userdoc\":{\"events\":{\"OwnershipTransferred(address,address)\":{\"notice\":\"Emitted when #transferOwnership is called\"}},\"kind\":\"user\",\"methods\":{\"renounceOwnership()\":{\"notice\":\"Renounces proxy ownership\"},\"setImplementation(address)\":{\"notice\":\"Updates proxy implementation address\"},\"transferOwnership(address)\":{\"notice\":\"Transfers ownership to another address\"}},\"notice\":\"User of current proxy must be aware of simplicity nature of it, in particular case naming collision is not handled in it. Proxy parameters are written as specific slot address\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/periphery/SimpleProxy.sol\":\"SimpleProxy\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":300},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Ownable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../utils/Context.sol\\\";\\n\\n/**\\n * @dev Contract module which provides a basic access control mechanism, where\\n * there is an account (an owner) that can be granted exclusive access to\\n * specific functions.\\n *\\n * By default, the owner account will be the one that deploys the contract. This\\n * can later be changed with {transferOwnership}.\\n *\\n * This module is used through inheritance. It will make available the modifier\\n * `onlyOwner`, which can be applied to your functions to restrict their use to\\n * the owner.\\n */\\nabstract contract Ownable is Context {\\n    address private _owner;\\n\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n    /**\\n     * @dev Initializes the contract setting the deployer as the initial owner.\\n     */\\n    constructor() {\\n        _transferOwnership(_msgSender());\\n    }\\n\\n    /**\\n     * @dev Throws if called by any account other than the owner.\\n     */\\n    modifier onlyOwner() {\\n        _checkOwner();\\n        _;\\n    }\\n\\n    /**\\n     * @dev Returns the address of the current owner.\\n     */\\n    function owner() public view virtual returns (address) {\\n        return _owner;\\n    }\\n\\n    /**\\n     * @dev Throws if the sender is not the owner.\\n     */\\n    function _checkOwner() internal view virtual {\\n        require(owner() == _msgSender(), \\\"Ownable: caller is not the owner\\\");\\n    }\\n\\n    /**\\n     * @dev Leaves the contract without owner. It will not be possible to call\\n     * `onlyOwner` functions anymore. Can only be called by the current owner.\\n     *\\n     * NOTE: Renouncing ownership will leave the contract without an owner,\\n     * thereby removing any functionality that is only available to the owner.\\n     */\\n    function renounceOwnership() public virtual onlyOwner {\\n        _transferOwnership(address(0));\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Can only be called by the current owner.\\n     */\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\n        require(newOwner != address(0), \\\"Ownable: new owner is the zero address\\\");\\n        _transferOwnership(newOwner);\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Internal function without access restriction.\\n     */\\n    function _transferOwnership(address newOwner) internal virtual {\\n        address oldOwner = _owner;\\n        _owner = newOwner;\\n        emit OwnershipTransferred(oldOwner, newOwner);\\n    }\\n}\\n\",\"keccak256\":\"0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/Context.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (utils/Context.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract Context {\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n}\\n\",\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\"},\"contracts/periphery/SimpleProxy.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.13;\\r\\n\\r\\nimport \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\r\\n\\r\\nstruct SimpleProxyStorage {\\r\\n    address implementation;\\r\\n    address owner;\\r\\n}\\r\\n\\r\\nfunction getSimpleProxyStorage() pure returns (SimpleProxyStorage storage ds) {\\r\\n    //keccak256(\\\"mithraeum.simpleproxy\\\") is 89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a\\r\\n    bytes32 position = 0x89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a;\\r\\n    assembly {\\r\\n        ds.slot := position\\r\\n    }\\r\\n}\\r\\n\\r\\n/// @title Simple proxy contract\\r\\n/// @notice User of current proxy must be aware of simplicity nature of it, in particular case naming collision is not handled in it. Proxy parameters are written as specific slot address\\r\\ncontract SimpleProxy {\\r\\n    /// @notice Emitted when #transferOwnership is called\\r\\n    /// @param previousOwner Previous proxy owner\\r\\n    /// @param newOwner New proxy owner\\r\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\r\\n\\r\\n    /// @dev Allows caller to be only owner\\r\\n    modifier onlyOwner() {\\r\\n        require(getSimpleProxyStorage().owner == msg.sender, \\\"onlyOwner\\\");\\r\\n        _;\\r\\n    }\\r\\n\\r\\n    constructor() {\\r\\n        _transferOwnership(msg.sender);\\r\\n    }\\r\\n\\r\\n    /// @dev Fallback function that delegates calls to the address returned by `proxyStorage.implementation`. Will run if no other function in the contract matches the call data.\\r\\n    fallback() external payable {\\r\\n        SimpleProxyStorage storage proxyStorage = getSimpleProxyStorage();\\r\\n        address _impl = proxyStorage.implementation;\\r\\n        assembly {\\r\\n            let ptr := mload(0x40)\\r\\n\\r\\n            // (1) copy incoming call data\\r\\n            calldatacopy(ptr, 0, calldatasize())\\r\\n\\r\\n            // (2) forward call to logic contract\\r\\n            let result := delegatecall(gas(), _impl, ptr, calldatasize(), 0, 0)\\r\\n            let size := returndatasize()\\r\\n\\r\\n            // (3) retrieve return data\\r\\n            returndatacopy(ptr, 0, size)\\r\\n\\r\\n            // (4) forward return data back to caller\\r\\n            switch result\\r\\n            case 0 {\\r\\n                revert(ptr, size)\\r\\n            }\\r\\n            default {\\r\\n                return(ptr, size)\\r\\n            }\\r\\n        }\\r\\n    }\\r\\n\\r\\n    /// @notice Updates proxy implementation address\\r\\n    /// @dev Even though this function is opened, it can only be called by contract owner\\r\\n    /// @param _newImpl New implementation address\\r\\n    function setImplementation(address _newImpl) public onlyOwner {\\r\\n        SimpleProxyStorage storage proxyStorage = getSimpleProxyStorage();\\r\\n        proxyStorage.implementation = _newImpl;\\r\\n    }\\r\\n\\r\\n    /// @notice Renounces proxy ownership\\r\\n    /// @dev Even though this function is opened, it can only be called by contract owner\\r\\n    function renounceOwnership() public virtual onlyOwner {\\r\\n        _transferOwnership(address(0));\\r\\n    }\\r\\n\\r\\n    /// @notice Transfers ownership to another address\\r\\n    /// @dev Even though this function is opened, it can only be called by contract owner\\r\\n    /// @param newOwner New owner address\\r\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\r\\n        require(newOwner != address(0), \\\"Ownable: new owner is the zero address\\\");\\r\\n        _transferOwnership(newOwner);\\r\\n    }\\r\\n\\r\\n    /// @dev Transfers ownership to another address\\r\\n    function _transferOwnership(address newOwner) internal virtual {\\r\\n        SimpleProxyStorage storage proxyStorage = getSimpleProxyStorage();\\r\\n        address oldOwner = proxyStorage.owner;\\r\\n        proxyStorage.owner = newOwner;\\r\\n        emit OwnershipTransferred(oldOwner, newOwner);\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0x7e329781cce1b5343e0c987d696efdece51a7ead713207b278dfb0775a10a3c3\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061001a3361001f565b6100b4565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b80546001600160a01b031981166001600160a01b038481169182179093556040517f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a939092169182907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e090600090a3505050565b6103cc806100c36000396000f3fe6080604052600436106100345760003560e01c8063715018a61461008a578063d784d4261461009f578063f2fde38b146100bf575b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a80546040516001600160a01b039091169036600082376000803683855af43d806000843e818015610084578184f35b8184fd5b005b34801561009657600080fd5b506100886100df565b3480156100ab57600080fd5b506100886100ba366004610366565b610155565b3480156100cb57600080fd5b506100886100da366004610366565b6101fb565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b546001600160a01b031633146101495760405162461bcd60e51b815260206004820152600960248201526837b7363ca7bbb732b960b91b60448201526064015b60405180910390fd5b61015360006102d1565b565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b546001600160a01b031633146101ba5760405162461bcd60e51b815260206004820152600960248201526837b7363ca7bbb732b960b91b6044820152606401610140565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a80546001600160a01b0319166001600160a01b0392909216919091179055565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b546001600160a01b031633146102605760405162461bcd60e51b815260206004820152600960248201526837b7363ca7bbb732b960b91b6044820152606401610140565b6001600160a01b0381166102c55760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b6064820152608401610140565b6102ce816102d1565b50565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b80546001600160a01b031981166001600160a01b038481169182179093556040517f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a939092169182907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e090600090a3505050565b60006020828403121561037857600080fd5b81356001600160a01b038116811461038f57600080fd5b939250505056fea26469706673582212208e4f932cdc7c85d70e136ca639b806cf3e2719efffb1b4cad7ab895d31ada46f64736f6c63430008100033",
+  "deployedBytecode": "0x6080604052600436106100345760003560e01c8063715018a61461008a578063d784d4261461009f578063f2fde38b146100bf575b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a80546040516001600160a01b039091169036600082376000803683855af43d806000843e818015610084578184f35b8184fd5b005b34801561009657600080fd5b506100886100df565b3480156100ab57600080fd5b506100886100ba366004610366565b610155565b3480156100cb57600080fd5b506100886100da366004610366565b6101fb565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b546001600160a01b031633146101495760405162461bcd60e51b815260206004820152600960248201526837b7363ca7bbb732b960b91b60448201526064015b60405180910390fd5b61015360006102d1565b565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b546001600160a01b031633146101ba5760405162461bcd60e51b815260206004820152600960248201526837b7363ca7bbb732b960b91b6044820152606401610140565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a80546001600160a01b0319166001600160a01b0392909216919091179055565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b546001600160a01b031633146102605760405162461bcd60e51b815260206004820152600960248201526837b7363ca7bbb732b960b91b6044820152606401610140565b6001600160a01b0381166102c55760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b6064820152608401610140565b6102ce816102d1565b50565b7f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1b80546001600160a01b031981166001600160a01b038481169182179093556040517f89ebf6b655b5bf3480fb4246b9e8786d810726f923695e3ff9668f941b26cb1a939092169182907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e090600090a3505050565b60006020828403121561037857600080fd5b81356001600160a01b038116811461038f57600080fd5b939250505056fea26469706673582212208e4f932cdc7c85d70e136ca639b806cf3e2719efffb1b4cad7ab895d31ada46f64736f6c63430008100033",
+  "devdoc": {
+    "events": {
+      "OwnershipTransferred(address,address)": {
+        "params": {
+          "newOwner": "New proxy owner",
+          "previousOwner": "Previous proxy owner"
+        }
+      }
+    },
+    "kind": "dev",
+    "methods": {
+      "renounceOwnership()": {
+        "details": "Even though this function is opened, it can only be called by contract owner"
+      },
+      "setImplementation(address)": {
+        "details": "Even though this function is opened, it can only be called by contract owner",
+        "params": {
+          "_newImpl": "New implementation address"
+        }
+      },
+      "transferOwnership(address)": {
+        "details": "Even though this function is opened, it can only be called by contract owner",
+        "params": {
+          "newOwner": "New owner address"
+        }
+      }
+    },
+    "title": "Simple proxy contract",
+    "version": 1
+  },
+  "userdoc": {
+    "events": {
+      "OwnershipTransferred(address,address)": {
+        "notice": "Emitted when #transferOwnership is called"
+      }
+    },
+    "kind": "user",
+    "methods": {
+      "renounceOwnership()": {
+        "notice": "Renounces proxy ownership"
+      },
+      "setImplementation(address)": {
+        "notice": "Updates proxy implementation address"
+      },
+      "transferOwnership(address)": {
+        "notice": "Transfers ownership to another address"
+      }
+    },
+    "notice": "User of current proxy must be aware of simplicity nature of it, in particular case naming collision is not handled in it. Proxy parameters are written as specific slot address",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}
